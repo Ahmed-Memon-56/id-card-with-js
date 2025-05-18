@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+
+.form {
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px;
+    display: block;
+
+}
+
+h1 {
+    background-color: rgb(77, 153, 216);
+    color: white;
+}
+
+.form>input {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid rgb(77, 153, 216);
+
+}
+
+button {
+    border: none;
+    background-color: rgb(77, 153, 216);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+
+
+#id-card {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+
+}
+
+.id-card {
+    background-image: url(id\ card\ bg.avif);
+    background-size: cover;
+    width: 320px;
+    height: 400px;
+    align-items: flex-start;
+    position: relative;
+    gap: 20px;
+
+
+    /* flex-wrap: wrap; */
+}
+
+.id-detail {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
