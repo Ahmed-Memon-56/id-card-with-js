@@ -8,11 +8,11 @@ let user_city= document.getElementById("city")
     rollno=Math.round(rollno);
 
 
-    let name = user_name.value.charAt(0).toUpperCase() + user_name.value.slice(1)|| "unknown";
-    let fname= user_fname.value.charAt(0).toUpperCase() + user_fname.value.slice(1)|| "unknown";
-    let number= user_number.value || "unknown";
-    let address= user_address.value.charAt(0).toUpperCase() + user_address.value.slice(1) || "unknown";
-    let city= user_city.value.charAt(0).toUpperCase() + user_city.value.slice(1) ||"unknown" ;
+    let name = user_name.value.charAt(0).toUpperCase() + user_name.value.slice(1);
+    let fname= user_fname.value.charAt(0).toUpperCase() + user_fname.value.slice(1);
+    let number= user_number.value ;
+    let address= user_address.value.charAt(0).toUpperCase() + user_address.value.slice(1) ;
+    let city= user_city.value.charAt(0).toUpperCase() + user_city.value.slice(1)  ;
    
    document.body.innerHTML += `
 <div class="id-card">
